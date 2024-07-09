@@ -9,8 +9,10 @@
     width: 1320px;
     height: 600px;
     border: 2px solid black;
+    border-style: none;
+    border-radius: 2%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 120px;
     background-color: rgba(26, 21, 21, 0.3);
      background-image: url('../images/Banner\ Image.png');
     background-position: center;
@@ -86,3 +88,62 @@ main .percent-section div{
     border-style: dashed;
 }
 /* <!-- percent section End --> */
+/* welcome-section start */
+main .welcome-section{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid wheat;
+    border-style: dashed;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(48, 44, 44, 0.3);
+    background-image: url('../images/party.png');
+    
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .welcome-section .basic-part{
+    width: 53%;
+    height: 100%;
+    margin-top: 126px;
+}
+main .welcome-section .basic-part h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+letter-spacing: 11%;
+margin-top: 40px;
+}
+main .welcome-section .basic-part p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-top: 24px;
+}
+main .welcome-section .basic-part button{
+   
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-top: 48px;
+margin-left: 158px;
+text-align: center;
+text-transform: uppercase;
+background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+}
+main .welcome-section .img-part{
+    width: 349.16px;
+    height: 464.65px;
+    border: 2px solid wheat;
+    border-style: dashed;
+}
+/* welcome-section end */
