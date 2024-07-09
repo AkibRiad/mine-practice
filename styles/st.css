@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-part{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(26, 21, 21, 0.3);
+     background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+.head-part .party-section{
+    width: 632px;
+    height: 246px;
+
+    margin: 0 auto;
+    margin-top: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-part .party-section p{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+
+}
+.head-part .party-section h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+.head-part .party-section span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
